@@ -1,0 +1,106 @@
+/* static/css/styles.css */
+
+.a {
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+}
+/* Animation pour les éléments en hover */
+.transition {
+    transition: all 0.3s ease;
+}
+
+/* Animations d'entrée pour les sections */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+/* Style pour la navigation active */
+.nav-link.text-blue-600 {
+    position: relative;
+}
+
+/* Animation de remplissage pour les boutons au survol */
+.bg-blue-600:hover {
+    box-shadow: 0 4px 6px rgba(37, 99, 235, 0.1);
+}
+
+/* Stylisation des cartes de projets */
+.bg-white.rounded-lg {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bg-white.rounded-lg:hover {
+    transform: translateY(-5px);
+}
+
+/* Focus amélioré pour les champs de formulaire */
+input:focus, textarea:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+    outline: none;
+}
+
+/* Effet de vague pour les boutons */
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 15px rgba(59, 130, 246, 0);
+    }
+}
+
+button:active, a.bg-blue-600:active {
+    animation: ripple 0.6s linear;
+}
+
+/* Personnalisation de la photo de profil */
+.rounded-full {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.rounded-full:hover {
+    transform: scale(1.05);
+}
+
+/* Style pour les bulles de compétences */
+.px-2.py-1.bg-blue-100 {
+    transition: all 0.3s ease;
+}
+
+.px-2.py-1.bg-blue-100:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* Amélioration du style mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .flex.flex-col-reverse {
+        gap: 1.5rem;
+    }
+}
+
+/* Animation de défilement doux */
+html {
+    scroll-behavior: smooth;
+}
