@@ -83,7 +83,7 @@ def index():
 @app.route('/download-cv')
 def download_cv():
     # Dans un cas réel, vous auriez un fichier CV dans un dossier static
-    return send_from_directory('static/files', 'CV_RAYAN_EAD_MAJ.pdf')
+    return send_from_directory('static', 'CV_RAYAN_EAD_MAJ.pdf')
 
 
 @app.route('/contact', methods=['POST'])
