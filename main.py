@@ -11,7 +11,7 @@ DATA = {
         "nom": "Rayan EL AMJAD",
         "titre": "Développeur Informatique Indépendant",
         "email": "elamjadrayan@gmail.com",
-        "description": "Passionné par l'analyse de données et le développement d'applications, je transforme mes problèmes en solutions concrètes et efficaces.",
+        "description": "Passionné par l'analyse de données, le développement web et l'automatisation, je conçois des solutions concrètes qui transforment des idées complexes en outils intelligents et accessibles.",
         "age": 20,
         "formation": [
             {
