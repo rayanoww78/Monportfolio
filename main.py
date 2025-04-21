@@ -46,7 +46,7 @@ DATA = {
             "titre": "DiviTrack",
             "description": "Application web d'analyse d'investissements en temps réel intégrant les API Powens et Yahoo Finance, avec calculs d'EPS et de dividendes.",
             "technologies": ["API", "Finance", "Data Analysis"],
-            "lien": "https://github.com/rayanoww78/DiviTracker"
+            "lien": "https://github.com/rayanoww78/DiviTrack/tree/master"
         },
         {
             "titre": "To-do List Intelligente",
