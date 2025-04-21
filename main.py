@@ -45,7 +45,7 @@ DATA = {
         {
             "titre": "DiviTrack",
             "description": "Application web d'analyse d'investissements en temps réel intégrant les API Powens et Yahoo Finance, avec calculs d'EPS et de dividendes.",
-            "technologies": ["API", "Finance", "Data Analysis"],
+            "technologies": ["API", "Finance", "Analyse de données"],
             "lien": "https://github.com/rayanoww78/DiviTrack/tree/master"
         },
         {
@@ -57,13 +57,13 @@ DATA = {
         {
             "titre": "Analyse des Notes",
             "description": "Algorithme d'extraction et d'analyses de données envoyé par mail, permettant d'automatiser le traitement et l'analyse des résultats académiques.",
-            "technologies": ["Data Mining", "Automation", "Email"],
+            "technologies": ["Data Mining", "Automatisation", "Panda"],
             "lien": "https://github.com/rayanoww78/NoteDataAnalyzer"
         },
         {
             "titre": "Convertisseur de Monnaies",
             "description": "Application permettant de convertir différentes devises en temps réel grâce à l'intégration d'une API de taux de change.",
-            "technologies": ["API", "Currency", "Real-time"],
+            "technologies": ["API", "Currency", "Temps réel"],
             "lien": "https://github.com/rayanoww78/MoneyConvertisseur"
         },
         {
